@@ -1,0 +1,250 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Helvetica;
+}
+
+.navbar {
+    overflow: hidden;
+    background: #226b80;
+    margin-top: 30px;
+    position: sticky;
+    top: 0;
+}
+
+.navbar a {
+    float: left;
+    display: block;
+    color:#f2f2f2;
+    text-align: center;
+    padding: 15px 20px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.navbar a:hover {
+    background: #ddd;
+    color: black;
+}
+
+/* navbar bitti*/
+
+.baslık {
+    background-image: url("https://images.unsplash.com/photo-1513530534585-c7b1394c6d51?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1351&q=80"); width: 100%;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+
+}
+
+#metin {
+    text-align: center;
+    color: #226b80;
+    position: absolute;
+    width: 50%;
+    font-size: 110px;
+    font-family: 'Kaushan Script', cursive;
+    font-style: oblique;
+    vertical-align: middle;
+    top: 50%;
+    left: 5%;
+}
+
+/*home bitti bitti... */
+
+#skills {
+    background-image: url(https://images.unsplash.com/photo-1489844097929-c8d5b91c456e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1352&q=80); width: 100%;
+    background-position: center;
+    background-size: cover;
+    background-repeat: repeat;
+    height:100vh;
+    display: block;
+    overflow: hidden;
+}
+
+#myskills {
+    font-family: 'Kaushan Script', cursive;
+    font-weight: bolder;
+    color: #226b80; 
+    text-align: center;
+    font-size: 80px;
+    overflow: hidden;
+    margin-top: 60px;
+    margin-bottom: 30px;
+}
+
+table {
+    font-size: 20px;
+    width: 90%;
+    height: 50%; 
+    overflow: hidden; 
+    text-align: center;
+   
+}
+td {
+    width: 25%;
+    border-right: 1px solid rgb(173, 170, 170);
+    border-bottom: 1px solid rgb(173, 170, 170);
+   
+}
+
+
+#isim {
+    background:none;
+    font-size: 24px;
+}
+#github {
+    background-color:rgb(182, 218, 146) ;
+    border-radius: 30px;
+    font-size : 24px; 
+    text-align: center; 
+}
+#html {
+    background-color:rgb(129, 161, 221) ;
+    border-radius: 30px;
+    font-size : 24px;
+    text-align: center;
+}
+#css {
+    background-color: rgb(194, 194, 49);
+    border-radius: 30px;
+    font-size : 24px;
+    text-align: center;
+}
+
+#github-star {
+    color: rgb(182, 218, 146);
+    font-size: 36px;
+}
+#html-star {
+    color: rgb(129, 161, 221);
+    font-size: 36px;
+}
+#css-star {
+    color: rgb(194, 194, 49);
+    font-size: 36px;
+}
+
+/* my skills bitti...*/
+
+#about {
+    background-image: url(https://images.unsplash.com/photo-1489844097929-c8d5b91c456e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1352&q=80); width: 100%;
+    background-position: center;
+    background-size: cover;
+    background-repeat: repeat;
+    height:100vh;
+    display: block;
+    overflow: hidden;
+}
+
+#about-baslık {
+    font-family: 'Kaushan Script', cursive;
+    font-weight: bolder;
+    color: #226b80; 
+    text-align: center;
+    font-size: 80px;
+    overflow: hidden;
+    margin-top: 60px;
+    margin-bottom: 30px;
+}
+
+p{
+    width: 50%;
+    height: 80%;
+    background: burlywood;
+    margin-left: 450px;
+    padding: 50px;
+    opacity: 0.8;
+    border-radius: 10px;
+}
+
+/*About bitti...*/
+
+#projects {
+    background-image: url(https://images.unsplash.com/photo-1489844097929-c8d5b91c456e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1352&q=80); width: 100%;
+    background-position: center;
+    background-size: cover;
+    background-repeat: repeat;
+    height:100vh;
+    display: block;
+    overflow: hidden;
+}
+
+#projects-baslık {
+    font-family: 'Kaushan Script', cursive;
+    font-weight: bolder;
+    color: #226b80; 
+    text-align: center;
+    font-size: 80px;
+    overflow: hidden;
+    margin-top: 60px;
+    margin-bottom: 30px;
+}
+
+
+  .card{
+
+    border: 5px solid rgb(182, 218, 146);
+    width: 15%;
+    height: 5%;
+    border-radius: 25px;
+    text-align: center;
+    margin-left: 240px;
+    margin-top: 70px;
+    float: left;
+}
+
+  .card h3{
+  
+    line-height: 250%;
+    font-size: 20px;
+  
+  }
+
+  .card img{
+  
+    width: 100%;
+    height: 200px;
+}
+
+  #acıklama {
+      text-align: justify ;
+      font-size: 16px;
+      width: 100%;
+      height: 100px;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+      padding-top: 30px;
+}
+
+  .card h4{
+  
+    background-color: rgb(182, 218, 146);
+    line-height: 40px;
+    border-radius: 0 0 18px 18px;
+    font-size: 30px;
+}
+
+.html-project .card {
+    border: 5px solid rgb(129, 161, 221);
+}
+
+.html-project .card h4 {
+    background-color:rgb(129, 161, 221) ;
+}
+
+.css-project .card {
+    border: 5px solid rgb(194, 194, 49);
+}
+
+.css-project .card h4 {
+    background-color:rgb(194, 194, 49) ;
+}
+
+/* my projects bitti*/
